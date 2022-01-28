@@ -46,7 +46,7 @@ function checkexpiredtoken(token){
     }
 }
 
-function userlogin(){
+function getCode(){
     setusername();
     $.ajax({
         type: 'POST',
